@@ -8,6 +8,11 @@ body {
 
 }
 
+.container {
+    padding: 0 10%;
+
+}
+
 h1 {
     font-size: 40px;
 }
@@ -38,6 +43,60 @@ h1 {
 .top a {
     text-decoration: none;
     padding: 16px 20px;
+    background: #FF5959;
+    border-radius: 5px;
+    color: #fff;
+
+}
+
+/* donate section */
+.donate-today {
+    text-align: center;
+}
+
+.donate-today h1 {
+    font-size: 45px;
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+.donate-today p {
+    font-size: 18px;
+    font-weight: 400px;
+    margin-bottom: 18px;
+}
+
+.donate-taka {
+    display: flex;
+    padding: 26px 63px;
+}
+
+.taka {
+    width: 20%;
+}
+
+.taka button {
+    width: 100px;
+    height: 80px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+.donate-today .form input{
+    border: none;
+    width: 192px;
+}
+.donate-today hr{
+    width: 60%;
+    height: 2px;
+    background-color: gray;
+    margin: 0px auto;
+}
+.donate-today button{
+    margin: 20px 0;
+}
+.donate-today button a {
+    text-decoration: none;
+    padding: 12px 10px;
     background: #FF5959;
     border-radius: 5px;
     color: #fff;
