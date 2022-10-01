@@ -91,11 +91,12 @@ h1 {
     background-color: gray;
     margin: 0px auto;
 }
-.donate-today button{
+.donate-today a{
+    text-decoration: none;
     margin: 20px 0;
 }
-.donate-today button a {
-    text-decoration: none;
+.donate-today a button{
+    border: none;
     padding: 12px 10px;
     background: #FF5959;
     border-radius: 5px;
@@ -172,7 +173,7 @@ h1 {
     border: none;
     background-color: 
     #FF5959;
-    margin-left: 0;
+    border-radius: 0px 5px 5px 0px;
 }
 /* contact-section */
 .contact-section{
